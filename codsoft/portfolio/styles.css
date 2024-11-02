@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Soft pastel blue */
+}
+
+header, footer {
+    background-color: #5dade2; /* Slightly darker pastel blue */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #2980b9; /* Darker blue */
+    padding: 10px 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color:aqua; /* Lighter blue on hover */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    max-width: 60%;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+h2 {
+    color: #2980b9; /* Dark blue for headers */
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #d6eaf8; /* Lighter pastel blue */
+    margin: 5px 0;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#skills li:hover {
+    background:#2980b9; /* Slightly darker pastel blue on hover */
+    transform: translateX(10px); /* Move right on hover */
+    color: white;
+}
+
+.hidden-text {
+    display: none;
+    color:white; /* Dark blue text */
+}
+
+#skills li:hover .hidden-text {
+    display: inline;
+}
+
+#projects .project {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .project:hover {
+    border-color: #5dade2; /* Change border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1f618d; /* Darker blue on hover */
+}
+#resume a {
+    background-color: #1f618d;
+    color: white;
+}
+#projects img {
+    width:300px;
+    height:200px;
+
+}
+.email-link:hover {
+     color: #8A2BE2; /* Darker Purple */
+     }

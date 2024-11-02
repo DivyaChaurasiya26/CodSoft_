@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White background */
+    color: #000; /* Black text for readability */
+}
+
+header {
+    background-color: #6A0DAD; /* Purple */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* White text */
+    background-color: #8A2BE2; /* Medium Purple */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #7B1FA2; /* Darker Purple */
+}
+
+.about, .features, .projects, .contact {
+    padding: 2em;
+    background-color: #F3E5F5; /* Light purple for content sections */
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about:hover, .features:hover, .projects:hover, .contact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .content {
+    max-width: 60%;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    background-color: #D8BFD8; /* Lighter purple */
+    color: #000; /* Black text for contrast */
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.column:hover {
+    transform: scale(1.05);
+}
+
+.projects img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.projects img:hover {
+    transform: scale(1.05);
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* White background for input fields */
+    color: #000; /* Black text */
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8A2BE2; /* Medium Purple */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #7B1FA2; /* Darker Purple */
+}
+
+footer {
+    background-color: #6A0DAD; /* Purple */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1em 0;
+}
